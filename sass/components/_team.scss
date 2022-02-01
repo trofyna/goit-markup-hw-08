@@ -1,0 +1,55 @@
+.team {
+    display: flex;
+    justify-content: space-between;
+}
+.team__image {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
+    0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px 
+    rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    transition-property: box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team__image:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+   
+    }
+.team__block {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: var(--prim-white-background);
+    border-radius: 0px 0px 4px 4px;
+   }
+
+h3.team__title {
+       padding-bottom: 10px;
+}
+
+
+
+.team__title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+
+}
+
+.team__text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--sec-color);
+
+}

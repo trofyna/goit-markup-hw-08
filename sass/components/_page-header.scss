@@ -1,0 +1,15 @@
+.page-header .container {
+    display: flex;
+    justify-content: space-between;
+    transition-property: color, fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.page-header{
+    border-bottom: 1px solid #ececec;
+}
+.page-header .logo {
+    margin-right: 93px;
+    display: flex;
+    align-items: center;
+}

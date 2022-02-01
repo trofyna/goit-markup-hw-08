@@ -1,0 +1,36 @@
+.page-footer {
+    background: #2f303a;
+    padding: 60px 0;
+    max-width: 1600px;
+    margin: 0px auto;
+    margin-top: 94px;
+    }
+
+.container--flex{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* flex-wrap:wrap; */
+}
+
+
+.footer-contact {
+    max-width: 230px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.footer-contact__item {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-contact__item--white {
+color: #FFFFFF;
+}

@@ -1,0 +1,29 @@
+body{
+    background-color: var(--prim-white-background);
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    color: #050303;
+}
+.section {
+    padding-top: 94px;
+}
+
+.container {
+    padding: 0 15px;
+    width: 1200px;
+    outline: 1px solid red;
+    margin: 0 auto;
+}
+
+.hedden-elem {
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    opacity: 0;
+    margin-top: -1px;
+}
+
+img {
+    display: block;
+}

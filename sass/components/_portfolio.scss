@@ -1,0 +1,112 @@
+
+.portfolio-list__title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: var(--main-color);
+    }  
+    .portfolio-list__text {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 30px;
+        letter-spacing: 0.03em;
+        color: var(--sec-color);
+    }
+    
+    .portfolio-list {
+        padding: 0 15px;
+        width: 1210px;
+        outline: 1px solid red;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        
+       
+    }
+    .portfolio-list__item {
+         border: 1px solid #EEEEEE;
+         transition-property: box-shadow;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        
+    }
+    
+    
+    .portfolio-list__item:focus,
+    .portfolio-list__item:hover {
+                box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 
+                0px 4px 4px rgba(0, 0, 0, 0.06),
+                 1px 4px 6px rgba(0, 0, 0, 0.16);
+                }
+    
+    h2.portfolio-list__title {
+        margin-bottom: 4px;
+    }
+    .portfolio-list__link  {
+        position: relative;
+    }
+    
+    .portfolio-list__info {
+        padding-top: 20px;
+        padding-right: 24px;
+        padding-bottom: 20px;
+        padding-left: 24px;
+    }
+    .portfolio-list__kryak {
+        position: absolute;
+        width: 370px;
+        height: 294px;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+        transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      }
+      .portfolio-list__kryak::before {
+        position: absolute;
+        content: 'Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.';
+        width: 370px;
+        height: 294px;
+        bottom: -100%;
+        display: flex;
+        align-items: center;
+        padding-left: 24px;
+        padding-right: 24px;
+        margin-left: 0px;
+        margin-right: 0px;
+        font-size: 18px;
+        line-height: 1.56;
+        letter-spacing: 0.03em;
+        color: #ffffff;
+        background-color: rgba(33, 150, 243, 0.9);
+      }
+       
+      .portfolio-list__item:hover .portfolio-list__kryak:before {
+        transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        transform: translateY(-100%);
+      }
+    
+    
+    .one,
+    .two,
+    .four,
+    .five,
+    .seven,
+    .eight {
+        margin-right: 30px;
+      
+    }
+    
+    .one,
+    .two,
+    .three,
+    .four,
+    .five,
+    .six {
+        margin-bottom: 30px;
+      
+    }
