@@ -15,6 +15,16 @@ body{
     width: 1200px;
     outline: 1px solid red;
     margin: 0 auto;
+    @media screen and (min-width: $mobile) {
+        width: $mobile;
+    }
+
+     @media screen and (min-width: $tablet) {
+        width: $tablet; 
+    }      
+    @media screen and (min-width: $desktop){
+        width: $mobile;
+    }
 }
 
 
