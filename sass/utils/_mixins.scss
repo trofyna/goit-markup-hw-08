@@ -1,3 +1,10 @@
+@mixin font ($fn: 16px, $fw: 600, $lh: 1.33, $ls: 0.02em) {
+    font-size: $fn;
+    font-weight: $fw;
+    line-height: $lh;
+    letter-spacing: $ls;
+}
+
 @mixin tel {
     @media screen and (min-width: $mobile)  {
         @content;
