@@ -210,6 +210,82 @@ img {
           transform: translate(-50%, -50%) scale(1, 1);
 }
 
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background: #ffffff;
+  -webkit-transform: translate(-50%, -50%) scale(1);
+          transform: translate(-50%, -50%) scale(1);
+  -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  max-width: 450px;
+  width: 450px;
+  min-height: 609px;
+}
+@media screen and (min-width: 768px) {
+  .modal {
+    max-width: 528px;
+    width: 100%;
+    height: 581px;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+  }
+}
+
+.modal__exit {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  stroke: #000;
+  stroke-opacity: 0.1;
+}
+.modal__exit:hover {
+  stroke: #2196f3;
+  stroke-opacity: 1;
+}
+
+.modal__img {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  stroke: #000;
+  stroke-opacity: 0.1;
+  -webkit-transition: stroke, stroke-opacity;
+  transition: stroke, stroke-opacity;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal__img:hover {
+  stroke: #2196f3;
+  stroke-opacity: 1;
+}
+
+.modal__btn {
+  position: absolute;
+  top: -30px;
+  right: -30px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  background-color: var(--prim-white-background);
+}
+
 .form__title {
   font-family: Roboto;
   font-style: normal;
