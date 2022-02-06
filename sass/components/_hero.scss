@@ -61,6 +61,7 @@
     }
 }
 .hero__btn {
+    z-index: 2;
     display: block;
     padding: 10px 32px;
     background: var(--act-color);
@@ -70,7 +71,7 @@
     line-height: 30px;
     letter-spacing: 0.06em;
     color: var(--prim-white-background);
-    // margin: 0 auto;
+    margin: 0 auto;
     max-width: 650px;
     transition-property: background-color, color, box-shadow;
     transition-duration: 250ms;
