@@ -101,23 +101,43 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   outline: 1px solid #2196F3;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(52, 52, 53, 0.4))), url("../images/imgbgfon.jpg");
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(52, 52, 53, 0.4)), url("../images/imgbgfon.jpg");
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(52, 52, 53, 0.4))), url("/images/hero-mob-1x.jpg");
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(52, 52, 53, 0.4)), url("/images/hero-mob-1x.jpg");
+}
+@media screen and (min-width: 768px) {
+  .hero {
+    width: 768px;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.5)), to(rgba(47, 48, 58, 0.3))), url("/images/hero-tab-1x.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.5), rgba(47, 48, 58, 0.3)), url("/images/hero-tab-1x.jpg");
+  }
 }
 @media screen and (min-width: 1200px) {
   .hero {
     position: relative;
     background: #2f303a;
-    padding: 200px 0;
-    max-width: 1600px;
-    margin: 0px auto;
-    text-align: center;
+    width: 1600px;
+    max-width: 100%;
+    height: 600px;
     outline: 1px solid #2196F3;
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(52, 52, 53, 0.4))), url("../images/imgbgfon.jpg");
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(52, 52, 53, 0.4)), url("../images/imgbgfon.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
+  }
+}
+
+.hero__container {
+  width: 360px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 118px;
+  padding-bottom: 118px;
+  text-align: center;
+}
+@media screen and (min-width: 1200px) {
+  .hero__container {
+    width: 696px;
+    padding-top: 200px;
+    padding-bottom: 200px;
   }
 }
 
@@ -242,15 +262,7 @@ img {
 }
 
 .modal__exit {
-  position: absolute;
-  top: 8px;
-  right: 8px;
-  stroke: #000;
-  stroke-opacity: 0.1;
-}
-.modal__exit:hover {
-  stroke: #2196f3;
-  stroke-opacity: 1;
+  position: relative;
 }
 
 .modal__img {
@@ -274,8 +286,8 @@ img {
 
 .modal__btn {
   position: absolute;
-  top: -30px;
-  right: -30px;
+  top: 5px;
+  right: 5px;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -298,6 +310,7 @@ img {
   font-weight: bold;
   font-size: 20px;
   line-height: calc(23 / 20);
+  text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-color);
 }
@@ -331,7 +344,7 @@ img {
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
-  line-height: 14px;
+  line-height: calc(14 / 12);
   letter-spacing: 0.01em;
   color: var(--sec-color);
   text-align: start;
@@ -352,8 +365,6 @@ img {
           box-sizing: border-box;
   border-radius: 4px;
   font-size: 14px;
-  width: 448px;
-  height: 40px;
   line-height: calc(16 / 14);
   letter-spacing: 0.01em;
   color: var(--sec-color);
@@ -386,7 +397,6 @@ img {
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.01em;
-  width: 448px;
   color: rgba(117, 117, 117, 0.5);
   padding-top: 12px;
   padding-left: 12px;

@@ -21,18 +21,10 @@
           line-height: calc(24 / 14);
           letter-spacing: 0.03em;
         }
+ }
+.modal__exit {
+    position: relative;
 }
-.modal__exit  {
-    position: absolute;
-    top: 8px;
-    right: 8px;
-    stroke: #000;
-    stroke-opacity: 0.1;
-    &:hover {
-      stroke: #2196f3;
-      stroke-opacity: 1;
-    }
-  }
 .modal__img {
     position: absolute;
     top: -1px;
@@ -49,8 +41,10 @@
   }
 .modal__btn {
     position: absolute;
-    top: -30px;
-    right: -30px;
+    top: 5px;
+    right: 5px;
+    // top: -30px;
+    // right: -30px;
     display: inline-flex;
     width: 30px;
     height: 30px;
