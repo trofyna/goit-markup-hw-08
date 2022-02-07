@@ -161,10 +161,10 @@ margin-bottom: 12px;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
+    line-height: calc(30 / 16);
     letter-spacing: 0.06em;
     width: 200px;
     height: 50px;
-    /* padding-right: 10px; */
     background: #2196F3;
     color: #fff;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -173,6 +173,10 @@ margin-bottom: 12px;
     margin-bottom: 40px;
     padding: 10px 55px;
     margin-top: 30px;
-    margin-left: 124px;
+    margin-left: 125px;
+
+    @include tab {
+        margin-left: 164px;
+      }
 
 }
