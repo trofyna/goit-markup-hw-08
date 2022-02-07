@@ -509,6 +509,14 @@ img {
     margin: -15px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .advantages {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: -15px;
+  }
+}
 
 @media screen and (max-width: 767px) {
   .advantages__block {
@@ -552,4 +560,25 @@ img {
 .advantages__image {
   width: 70px;
   height: 70px;
+}
+
+.advantages__title {
+  color: var(--main-color);
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.143;
+  margin-bottom: 10px;
+}
+
+.advantages__text {
+  color: var(--sec-color);
+  font-size: 14px;
+  line-height: 1.714;
+}
+
+.advantages__item {
+  border: none;
+  background: #F5F4FA;
 }/*# sourceMappingURL=main.css.map */
