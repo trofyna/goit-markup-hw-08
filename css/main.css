@@ -46,7 +46,7 @@ button {
 
 body {
   background-color: var(--prim-white-background);
-  min-width: 360px;
+  width: 360px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-size: 14px;
