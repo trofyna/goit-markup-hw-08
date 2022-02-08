@@ -5,17 +5,16 @@
     display: flex;
     flex-wrap: wrap;
       margin: -15px;
-      -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-    }
+          }
+
+          
     @include desk{
         display: flex;
         
         margin: -15px;
         -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
+        -moz-appearance: none;
+          appearance: none;
         }
     
   }

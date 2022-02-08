@@ -529,9 +529,6 @@ img {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     margin: -15px;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
   }
 }
 @media screen and (min-width: 1200px) {
