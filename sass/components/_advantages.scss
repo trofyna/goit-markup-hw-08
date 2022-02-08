@@ -7,7 +7,7 @@
       margin: -15px;
           }
 
-          
+
     @include desk{
         display: flex;
         
@@ -60,6 +60,9 @@
         font-size: 14px;
         line-height: 1.143;
         margin-bottom: 10px;
+      @include tab {
+      text-align:start;
+      }
       }
 .advantages__text {
         color: var(--sec-color);

@@ -596,6 +596,11 @@ img {
   line-height: 1.143;
   margin-bottom: 10px;
 }
+@media screen and (min-width: 768px) {
+  .advantages__title {
+    text-align: start;
+  }
+}
 
 .advantages__text {
   color: var(--sec-color);
