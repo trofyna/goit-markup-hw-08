@@ -92,10 +92,32 @@ img {
   display: block;
 }
 
-.advantages {
+.suggestion, .advantages {
   padding: 0;
   margin: 0;
   list-style: none;
+}
+
+.section--down {
+  margin: 0 auto;
+  padding: 60px 15px;
+}
+@media screen and (min-width: 480px) {
+  .section--down {
+    width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .section--down {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section--down {
+    width: 1200px;
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 .hero {
@@ -517,12 +539,7 @@ img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    margin: -15px;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -592,4 +609,26 @@ img {
 .advantages__item {
   border: none;
   background: #F5F4FA;
+}
+
+.suggestion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section--down {
+  display: none;
+}
+@media screen and (min-width: 1200px) {
+  .section--down {
+    display: block;
+  }
+}
+
+.suggestion__block {
+  width: calc((100% - 60px) / 3);
+}
+.suggestion__block:not(:last-child) {
+  margin-right: 30px;
 }/*# sourceMappingURL=main.css.map */

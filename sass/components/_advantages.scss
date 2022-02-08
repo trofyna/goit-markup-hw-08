@@ -10,8 +10,9 @@
   appearance: none;
     }
     @include desk{
-        @include FlexCenter;   
-        // margin: -15px;
+        display: flex;
+        
+        margin: -15px;
         -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -34,8 +35,8 @@
       margin: 15px;
     }
     @include desk {
-        flex-basis: calc(100% / 4 - 30px);
-        margin-bottom: 0;
+     flex-basis: calc(100% / 4 - 30px);
+      margin-bottom: 0;
     }
   }
 

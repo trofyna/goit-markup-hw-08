@@ -1,3 +1,25 @@
+.suggestion {
+    @extend %list;
+    display: flex;
+  }
+  .section--down {
+    display: none;
+    @extend %container;
+  
+    @include  desk{
+      display: block;
+    }
+}
+  .suggestion__block {
+    width: calc((100% - 60px) / 3);
+  
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+}
+
+
+
 // .section--down {
 //     padding-bottom: 94px;
 // }
