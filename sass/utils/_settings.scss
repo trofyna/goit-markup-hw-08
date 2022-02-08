@@ -1,6 +1,7 @@
 body{
     background-color: var(--prim-white-background);
-    width: 360px;
+    min-width: 360px;
+    margin: 0 auto;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-size: 14px;
