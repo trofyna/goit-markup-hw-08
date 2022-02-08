@@ -24,7 +24,7 @@ body{
         width: $tablet; 
     }      
     @media screen and (min-width: $desktop){
-        width: $mobile;
+        width: $desktop;
     }
 }
 
