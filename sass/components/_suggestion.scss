@@ -17,6 +17,31 @@
       margin-right: 30px;
     }
 }
+.suggestion__link {
+  display: block;
+  position: relative;
+  color: #FFFFFF;
+
+&--title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    padding-top: 27px;
+    padding-bottom: 27px;
+
+    background-color: rgb(47, 48, 58);
+    width: 100%;
+    opacity: 0.8;
+
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+}
 
 
 
