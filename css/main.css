@@ -628,9 +628,21 @@ img {
   }
 }
 
-.suggestion__block {
+.suggestion__item {
   width: calc((100% - 60px) / 3);
 }
-.suggestion__block:not(:last-child) {
+.suggestion__item:not(:last-child) {
   margin-right: 30px;
+}
+
+.section__title--base {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+  margin-bottom: 50px;
 }/*# sourceMappingURL=main.css.map */
