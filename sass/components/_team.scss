@@ -1,9 +1,9 @@
 .team {
-    @extend %list;
-    @include tab {
-          display: flex;
-          flex-wrap: wrap;
-          margin: -15px;
+ @extend %list;
+ @include tab {
+        display: flex;
+        flex-wrap: wrap;
+         margin: -15px;
     }
 
 }
