@@ -274,7 +274,31 @@
                     <div class="container">
                     <ul class="team">
                       <li class="team__image">
-                        <img src="images/img1-sec-team.jpg" alt="Игорь Демьяненко Продакт Дизайнер" width="270" height="260">
+                        <picture>
+                      <source srcset="
+                          ./images/team/demianenco-mob-1x.jpg 1x,
+                          ./images/team/demianenco-mob-2x.jpg 2x"
+                          type="image/jpg"
+                          media="(max-width: 767px)"/>
+                           <source srcset="
+                           ./images/team/demianenco-tab-1x.jpg 1x,
+                          ./images/team/demianenco-tab-2x.jpg 2x "
+                           type="image/jpg"
+                           media="(min-width: 768px) and (max-width: 1199px)"/>
+                           <source srcset="
+                           ./images/team/demianenco.jpg 1x,
+                           ./images/team/demianenco-2x.jpg 2x "
+                    type="image/jpg"
+                    media="(min-width: 1200px)" />
+
+                           <img  loading="lazy"
+                           srcset="
+                           ./images/team/demianenco.jpg 1x,
+                           ./images/team/demianenco-2x.jpg 2x "
+                           src="./images/img1-sec-team.jpg"
+                           alt="Игорь Демьяненко Продакт Дизайнео"/>
+                          </picture>
+                          <!-- <img src="images/img1-sec-team.jpg" alt="Игорь Демьяненко Продакт Дизайнер" width="270" height="260"> -->
                         <div  class="team__block">
                           <h3 class="team__title">Игорь Демьяненко</h3>
                         <p lang="en" class="team__text">Product Designer</p>
@@ -314,7 +338,15 @@
                             </ul>
                       </div>
                       </li>
-                      <li class="team__image"><img src="images/img2-sec-team.jpg" alt="Ольга Репина Фронтендед Девелопер" width="270" height="260">
+                      <li class="team__image">
+                        <img 
+                        srcset="
+                        ./images/team/repina-mob-1x.jpg 1x,
+                        ./images/team/repina-mob-2x.jpg 2x"
+                        src="./images/img2-sec-team.jpg"
+                        alt="Ольга Репина Фронтендед Девелопер" 
+                         />
+                         <!-- <img src="images/img2-sec-team.jpg" alt="Ольга Репина Фронтендед Девелопер" width="270" height="260"> -->
                         <div class="team__block">
                           <h3 class="team__title">Ольга Репина</h3>
                         <p lang="en" class="team__text">Frontend Developer</p>
