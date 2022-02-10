@@ -7,83 +7,84 @@
     }
 
 }
-.team__image {
-    @include Anime(box-shadow);
-    text-align: center;
-    border-radius: 0px 0px 4px 4px;
-    &:hover {
-      box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-        1px 4px 6px rgba(0, 0, 0, 0.16);
-    }
-    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
-      0px 1px 3px rgba(0, 0, 0, 0.12);
-    @media screen and (max-width: 767px) {
-      width: 450px;
-      height: 622px;
-      margin-bottom: 30px;
-    }
-  
-    @include tab {
-      flex-basis: calc((100% - 2 * 30px) / 2);
-      margin: 15px;
-    }
-  
-    @include desk {
-      flex-basis: calc((100% - 4 * 30px) / 4);
-      margin: 15px;
-    }
-  }
 
 // .team__image {
-//     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
-//     0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px 
-//     rgba(0, 0, 0, 0.2);
+//     text-align: center;
 //     border-radius: 0px 0px 4px 4px;
-//     transition-property: box-shadow;
-//     transition-duration: 250ms;
-//     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+//     &:hover {
+//       box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+//         1px 4px 6px rgba(0, 0, 0, 0.16);
+//     }
+//     box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+//       0px 1px 3px rgba(0, 0, 0, 0.12);
+
+//     @media screen and (max-width: 767px) {
+//       width: 450px;
+//       height: 622px;
+//       margin-bottom: 30px;
+//     }
+  
+//     @include tab {
+//       flex-basis: calc((100% - 2 * 30px) / 2);
+//       margin: 15px;
+//     }
+  
+//     @include desk {
+//       flex-basis: calc((100% - 4 * 30px) / 4);
+//       margin: 15px;
+//     }
+//   }
+
+// // .team__image {
+// //     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
+// //     0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px 
+// //     rgba(0, 0, 0, 0.2);
+// //     border-radius: 0px 0px 4px 4px;
+// //     transition-property: box-shadow;
+// //     transition-duration: 250ms;
+// //     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+// // }
+
+// // .team__image:hover {
+// //     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+// //       1px 4px 6px rgba(0, 0, 0, 0.16);
+   
+// //     }
+// .team__block {
+//     padding-top: 30px;
+//     padding-bottom: 30px;
+//     background: var(--prim-white-background);
+//     border-radius: 0px 0px 4px 4px;
+//    }
+
+// .team__title {
+//     font-family: Roboto;
+//     font-style: normal;
+//     font-weight: 500;
+//     font-size: 16px;
+//     line-height: 1.1875;
+//     text-align: center;
+//     letter-spacing: 0.03em;
+//     color: var(--main-color);
+
 // }
 
-// .team__image:hover {
-//     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-//       1px 4px 6px rgba(0, 0, 0, 0.16);
-   
-//     }
-.team__block {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    background: var(--prim-white-background);
-    border-radius: 0px 0px 4px 4px;
-   }
+// .team__text {
+//     font-family: Roboto;
+//     font-style: normal;
+//     font-weight: normal;
+//     font-size: 16px;
+//     line-height: 1.1875;
+//     // text-align: center;
+//     letter-spacing: 0.03em;
+//     color: var(--sec-color);
 
-.team__title {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.1875;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--main-color);
-
-}
-
-.team__text {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 1.1875;
-    // text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--sec-color);
-
-}
-.team__block {
-    height: 162px;
-    padding-top: 30px;
-    padding-bottom: 24px;
-    background: var(--prim-white-background);
-    border-radius: 0px 0px 4px 4px;
-   }
+// }
+// .team__block {
+//     height: 162px;
+//     padding-top: 30px;
+//     padding-bottom: 24px;
+//     background: var(--prim-white-background);
+//     border-radius: 0px 0px 4px 4px;
+//    }
 

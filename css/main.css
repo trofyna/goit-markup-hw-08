@@ -92,7 +92,7 @@ img {
   display: block;
 }
 
-.suggestion, .advantages {
+.team, .suggestion, .advantages {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -667,4 +667,89 @@ img {
   letter-spacing: 0.03em;
   color: var(--main-color);
   margin-bottom: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .team {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: -15px;
+  }
+}
+
+.section--bckgrnd {
+  background-color: #F5F4FA;
+}
+
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 30px;
+}
+
+.social__point {
+  margin-right: 10px;
+}
+
+.social__point:last-child {
+  margin-right: 0px;
+}
+
+.social__link {
+  width: 44px;
+  height: 44px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+  fill: #afb1b8;
+  -webkit-transition-property: fill, background-color;
+  transition-property: fill, background-color;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social__img {
+  width: 20px;
+  height: 20px;
+  -webkit-transition-property: fill, background-color;
+  transition-property: fill, background-color;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social__link:focus,
+.social__link:hover,
+.social__img:hover,
+.social__img:focus {
+  background: var(--act-color);
+  fill: #FFFFFF;
+}
+
+.social__link--lghtbckgrnd {
+  fill: #FFFFFF;
+}
+
+.social__link--lghtbckgrnd {
+  background: rgba(255, 255, 255, 0.1);
 }/*# sourceMappingURL=main.css.map */
