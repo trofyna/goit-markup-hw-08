@@ -30,15 +30,11 @@
   
     @include tab {
       flex-basis: calc((100% - 2 * 30px) / 2);
-        // width: 354px;
-        // height: 374px;
-      margin: 15px;
+    margin: 15px;
     }
  @include desk {
     flex-basis: calc((100% - 4 * 30px) / 4);
-    // width: 270px;
-    // height: 260px;
-    margin: 15px;
+     margin: 15px;
     }
   }
 
