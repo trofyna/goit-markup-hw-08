@@ -17,7 +17,7 @@
     
     // max-width: 1600px;
     // margin: 0px auto;
-    margin-top: 94px;
+    // margin-top: 94px;
     }
 
 .container--flex{
@@ -49,9 +49,28 @@
         height: 252px;
         padding: 60px 15px;
       }
-    
+ }
+ .page-footer__logo-address {
+    @media screen and (max-width: 767px) { 
+      margin-bottom: 60px;
+    }
   
-}
+    @include tab {
+      display: inline-flex;
+    }
+    display: flex;
+    flex-direction: column;
+  
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.71;
+    text-align: center;
+  
+    @include desk {
+      text-align: left;
+    }
+  }
+  
 // .footer-contact {
 //     max-width: 230px;
 //     display: flex;

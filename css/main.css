@@ -922,7 +922,6 @@ img {
 
 .page-footer {
   background: #2f303a;
-  margin-top: 94px;
 }
 @media screen and (max-width: 767px) {
   .page-footer {
@@ -987,5 +986,36 @@ img {
     width: 1200px;
     height: 252px;
     padding: 60px 15px;
+  }
+}
+
+.page-footer__logo-address {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.71;
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .page-footer__logo-address {
+    margin-bottom: 60px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .page-footer__logo-address {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .page-footer__logo-address {
+    text-align: left;
   }
 }/*# sourceMappingURL=main.css.map */
