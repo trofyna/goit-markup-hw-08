@@ -466,7 +466,31 @@
                         </ul>
                       </div>
                     </li>
-                      <li class="team__image"><img src="images/img4-sec-team.jpg" alt="Михаил Ермаков Дизайнер пользовательского интерфейса" width="270" height="260">
+                      <li class="team__image">
+                        <picture>
+                          <source srcset="
+                         ./images/team/ermacov-mob-1x.jpg 1x,
+                         ./images/team/ermacov-mob-2x.jpg 2x"
+                          type="image/jpg"
+                          media="(max-width: 767px)"/>
+                           <source srcset="
+                          ./images/team/ermacov-tab-1x.jpg 1x,
+                          ./images/team/ermacov-tab-2x.jpg 2x "
+                           type="image/jpg"
+                           media="(min-width: 768px) and (max-width: 1199px)"/>
+                           <source srcset="
+                           ./images/team/ermacov.jpg 1x,
+                           ./images/team/ermacov-2x.jpg 2x "
+                          type="image/jpg"
+                          media="(min-width: 1200px)" />
+                          <img  loading="lazy"
+                           srcset="
+                           ./images/team/ermacov.jpg 1x,
+                           ./images/team/ermacov-2x.jpg 2x "
+                           src="./images/img4-sec-team.jpg"
+                           alt="Михаил Ермаков Дизайнер пользовательского интерфейса"/>
+                          </picture>  
+                         <!-- <img src="images/img4-sec-team.jpg" alt="Михаил Ермаков Дизайнер пользовательского интерфейса" width="270" height="260"> -->
                         <div class="team__block">
                           <h3 class="team__title">Михаил Ермаков</h3><p lang="en" class="team__text">UI Designer</p>
                           <ul class="social">
