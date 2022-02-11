@@ -101,10 +101,6 @@
       }
 }
 
-// .footer-contact__item--white {
-// color: #FFFFFF;
-// }
-
 .footer-contact__item {
     text-decoration: none;
     cursor: pointer;
@@ -113,5 +109,26 @@
     &:focus,
     &:hover {
         color: #2196f3;
+    }
+  }
+  .join__title {
+    font-size: 14px;
+    line-height: 1.17;
+    margin-bottom: 20px;
+  }
+  .join {
+    text-transform: uppercase;
+    color: var(--for-black-color);
+        text-align: center;
+    @media screen and (max-width: 767px) {
+      margin-bottom: 60px;
+    }
+  
+    @include tab {
+      display: inline-block;
+    }
+  
+    @include desk {
+      text-align: left;
     }
   }

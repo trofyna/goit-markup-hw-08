@@ -1061,4 +1061,31 @@ img {
 }
 .footer-contact__item:focus, .footer-contact__item:hover {
   color: #2196f3;
+}
+
+.join__title {
+  font-size: 14px;
+  line-height: 1.17;
+  margin-bottom: 20px;
+}
+
+.join {
+  text-transform: uppercase;
+  color: var(--for-black-color);
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .join {
+    margin-bottom: 60px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .join {
+    display: inline-block;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .join {
+    text-align: left;
+  }
 }/*# sourceMappingURL=main.css.map */
