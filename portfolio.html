@@ -120,7 +120,7 @@
                       type="image/jpg"
                       media="(min-width: 1200px)" />
                   <img loading="lazy" srcset="
-                      ./images/portfolio/project.jpg 1x,
+                      ./images/portfolio/project2.jpg 1x,
                       ./images/portfolio/project2-2x.jpg 2x "
                       src="./images/img2-main-por.jpg"
                       alt="Постер New Orlean vs Golden Star"/>
@@ -139,12 +139,38 @@
           </a> 
         </li>
             <li class="portfolio-list__item three">
-              <a href="#" class="portfolio-list__link">
-              <img src="./images/img3-main-por.jpg" alt="img" width="370" height="294">
-              <div class="portfolio-list__info">
-                <div class="portfolio-list__kryak"> <!-- Технокряк это современная площадка распространения коронавируса. 
-                  Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов. -->
-                </div>
+            <a href="#" class="portfolio-list__link">
+            <div class="portfolio-list__info">
+              <picture>
+                <source srcset="
+                ./images/portfolio/project3-mob-1x.jpg 1x,
+                ./images/portfolio/project3-mob-2x.jpg 2x "
+                    type="image/jpg"
+                    media="(max-width: 767px)" />
+                      <source srcset="
+                      ./images/portfolio/project3-tab-1x.jpg 1x,
+                      ./images/portfolio/project3-tab-2x.jpg 2x "
+                    type="image/jpg"
+                    media="(max-width: 1199px)" />
+                    <source srcset="
+                    ./images/portfolio/project3.jpg 1x,
+                    ./images/portfolio/project3-2x.jpg 2x "
+                    type="image/jpg"
+                    media="(min-width: 1200px)" />
+                <img loading="lazy" srcset="
+                    ./images/portfolio/project3.jpg 1x,
+                    ./images/portfolio/project3-2x.jpg 2x "
+                    src="./images/img3-main-por.jpg"
+                    alt="Ресторан Seafood"/>
+              </picture>
+              <!-- <img src="./images/img3-main-por.jpg" alt="img" width="370" height="294"> -->
+              <div class="portfolio-list__kryak">
+                  <p class="portfolio-list__kryakt--text"> Технокряк это современная площадка распространения коронавируса. 
+                    Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.
+                  </p>
+              </div>
+            </div>
+            <div class="portfolio-list__content">
                 <h2 class="portfolio-list__title">Ресторан <span lang="en">Seafood</span></h2>
               <p class="portfolio-list__text">Приложение</p>
             </div>
