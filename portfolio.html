@@ -63,28 +63,81 @@
           <ul class="portfolio-list">
             <li class="portfolio-list__item one">
             <a href="#" class="portfolio-list__link">
-              <img src="./images/img1-main-por.jpg" alt="img" width="370" height="294">
               <div class="portfolio-list__info">
-                <div class="portfolio-list__kryak"> <!-- Технокряк это современная площадка распространения коронавируса. 
-                  Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов. -->
+                <picture>
+                  <source srcset="
+                  ./images/portfolio/project1-mob-1x.jpg 1x,
+                  ./images/portfolio/project1-mob-2x.jpg 2x "
+                      type="image/jpg"
+                      media="(max-width: 767px)" />
+                        <source srcset="
+                        ./images/portfolio/project1-tab-1x.jpg 1x,
+                        ./images/portfolio/project1-tab-2x.jpg 2x "
+                      type="image/jpg"
+                      media="(max-width: 1199px)" />
+                      <source srcset="
+                      ./images/portfolio/project1.jpg 1x,
+                      ./images/portfolio/project1-2x.jpg 2x "
+                      type="image/jpg"
+                      media="(min-width: 1200px)" />
+                  <img loading="lazy" srcset="
+                      ./images/portfolio/project1.jpg 1x,
+                      ./images/portfolio/project1-2x.jpg 2x "
+                      src="./images/img1-main-por.jpg"
+                      alt="Технокряк"/>
+                </picture>
+              <!-- <img src="./images/img1-main-por.jpg" alt="img" width="370" height="294"> -->
+              
+                <div class="portfolio-list__kryak">
+                  <p class="portfolio-list__kryakt--text"> Технокряк это современная площадка распространения коронавируса. 
+                  Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.
+                </p>
                 </div>
+              </div>
+              <div class="portfolio-list__content">
                 <h2 class="portfolio-list__title">Технокряк</h2>
               <p class="portfolio-list__text">Веб-сайт</p>
-                </div>
+            </div>  
             </a>
             </li>
             <li class="portfolio-list__item two">
               <a href="#" class="portfolio-list__link">
-              <img src="./images/img2-main-por.jpg" alt="img" width="370" height="294">
-              <div class="portfolio-list__info">
-                <div class="portfolio-list__kryak"> <!-- Технокряк это современная площадка распространения коронавируса. 
-                  Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов. -->
-                </div>
+          <div class="portfolio-list__info">
+                <picture>
+                  <source srcset="
+                  ./images/portfolio/project2-mob-1x.jpg 1x,
+                  ./images/portfolio/project2-mob-2x.jpg 2x "
+                      type="image/jpg"
+                      media="(max-width: 767px)" />
+                        <source srcset="
+                        ./images/portfolio/project2-tab-1x.jpg 1x,
+                        ./images/portfolio/project2-tab-2x.jpg 2x "
+                      type="image/jpg"
+                      media="(max-width: 1199px)" />
+                      <source srcset="
+                      ./images/portfolio/project2.jpg 1x,
+                      ./images/portfolio/project2-2x.jpg 2x "
+                      type="image/jpg"
+                      media="(min-width: 1200px)" />
+                  <img loading="lazy" srcset="
+                      ./images/portfolio/project.jpg 1x,
+                      ./images/portfolio/project2-2x.jpg 2x "
+                      src="./images/img2-main-por.jpg"
+                      alt="Постер New Orlean vs Golden Star"/>
+                </picture>
+              <!-- <img src="./images/img2-main-por.jpg" alt="img" width="370" height="294"> -->
+            <div class="portfolio-list__kryak">
+              <p class="portfolio-list__kryakt--text"> Технокряк это современная площадка распространения коронавируса. 
+                Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.
+              </p>
+            </div>
+          </div>
+            <div class="portfolio-list__content">
               <h2 class="portfolio-list__title">Постер <span lang="en">New Orlean vs Golden Star</span></h2>
               <p class="portfolio-list__text">Дизайн</p>
             </div>
-            </a> 
-            </li>
+          </a> 
+        </li>
             <li class="portfolio-list__item three">
               <a href="#" class="portfolio-list__link">
               <img src="./images/img3-main-por.jpg" alt="img" width="370" height="294">
