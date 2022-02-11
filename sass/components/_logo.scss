@@ -1,17 +1,31 @@
-.logo {
-    font-family: "Raleway", sans-serif;
-    font-style: normal;
-    font-weight: bold;
+.logo  {
+  display: inline-block;
+
+  color: var(--act-color);
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  @media screen and (min-width: 0px) and (max-width: 767px) {
+    font-size: 24px;
+    line-height: 1.16;
+  }
+  @include tab {
+    margin-right: 81px;
+    font-size: 24px;
+    line-height: 1.16;
+    display: inline-flex;
+  }
+  @include desk {
     font-size: 26px;
-    line-height: calc(31/26);
-    letter-spacing: 0.03em;
-    color: var(--act-color);
+    line-height: 1.19;
+  }
 }
 
 .logo__text--black {
     color: var(--main-color);
-    display: inline-block;
-    margin-right: 5px;
+    // display: inline-block;
+    // margin-right: 5px;
 }
 
 .logo__text--white {

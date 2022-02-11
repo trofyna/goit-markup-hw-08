@@ -121,19 +121,37 @@ img {
 }
 
 .logo {
-  font-family: "Raleway", sans-serif;
+  display: inline-block;
+  color: var(--act-color);
+  font-family: Raleway;
   font-style: normal;
   font-weight: bold;
-  font-size: 26px;
-  line-height: calc(31/26);
-  letter-spacing: 0.03em;
-  color: var(--act-color);
+}
+@media screen and (min-width: 0px) and (max-width: 767px) {
+  .logo {
+    font-size: 24px;
+    line-height: 1.16;
+  }
+}
+@media screen and (min-width: 768px) {
+  .logo {
+    margin-right: 81px;
+    font-size: 24px;
+    line-height: 1.16;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .logo {
+    font-size: 26px;
+    line-height: 1.19;
+  }
 }
 
 .logo__text--black {
   color: var(--main-color);
-  display: inline-block;
-  margin-right: 5px;
 }
 
 .logo__text--white {
