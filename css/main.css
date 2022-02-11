@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
 *,
 *::after,
@@ -93,7 +92,7 @@ img {
   display: block;
 }
 
-.clients, .team, .suggestion, .advantages {
+.portfolio-list, .clients, .team, .suggestion, .advantages {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -1201,130 +1200,18 @@ img {
   opacity: 1;
 }
 
-.portfolio-list__title {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 36px;
-  letter-spacing: 0.06em;
-  color: var(--main-color);
+@media screen and (max-width: 767px) {
+  .portfolio-list {
+    text-align: center;
+  }
 }
-
-.portfolio-list__text {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 30px;
-  letter-spacing: 0.03em;
-  color: var(--sec-color);
-}
-
-.portfolio-list {
-  padding: 0 15px;
-  width: 1210px;
-  outline: 1px solid red;
-  margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.portfolio-list__item {
-  border: 1px solid #EEEEEE;
-  -webkit-transition-property: -webkit-box-shadow;
-  transition-property: -webkit-box-shadow;
-  transition-property: box-shadow;
-  transition-property: box-shadow, -webkit-box-shadow;
-  -webkit-transition-duration: 250ms;
-          transition-duration: 250ms;
-  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.portfolio-list__item:focus,
-.portfolio-list__item:hover {
-  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-          box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-
-h2.portfolio-list__title {
-  margin-bottom: 4px;
-}
-
-.portfolio-list__link {
-  position: relative;
-}
-
-.portfolio-list__info {
-  padding-top: 20px;
-  padding-right: 24px;
-  padding-bottom: 20px;
-  padding-left: 24px;
-}
-
-.portfolio-list__kryak {
-  position: absolute;
-  width: 370px;
-  height: 294px;
-  top: 0;
-  left: 0;
-  overflow: hidden;
-  -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.portfolio-list__kryak::before {
-  position: absolute;
-  content: "Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.";
-  width: 370px;
-  height: 294px;
-  bottom: -100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding-left: 24px;
-  padding-right: 24px;
-  margin-left: 0px;
-  margin-right: 0px;
-  font-size: 18px;
-  line-height: 1.56;
-  letter-spacing: 0.03em;
-  color: #ffffff;
-  background-color: rgba(33, 150, 243, 0.9);
-}
-
-.portfolio-list__item:hover .portfolio-list__kryak:before {
-  -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  -webkit-transform: translateY(-100%);
-          transform: translateY(-100%);
-}
-
-.one,
-.two,
-.four,
-.five,
-.seven,
-.eight {
-  margin-right: 30px;
-}
-
-.one,
-.two,
-.three,
-.four,
-.five,
-.six {
-  margin-bottom: 30px;
+@media screen and (min-width: 768px) {
+  .portfolio-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: -15px;
+  }
 }/*# sourceMappingURL=main.css.map */
