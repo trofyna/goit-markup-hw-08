@@ -9,7 +9,36 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.menu-socials {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: -10px;
+  }
+  
+  .menu-socials__item {
+    margin-top: 10px;
+  
+    &:not(:last-child) {
+      margin-right: 10px;
+      padding-right: 10px;
+      border-right: 1px solid rgba(33, 33, 33, 0.2);
+    }
+  }
+  
+  .menu-socials__item:nth-last-child(2) {
+    @media screen and (max-width: 439px) {
+      border-right: none;
+    }
+  }
+  
+  .menu-socials__link {
+    color: var(--hover-text-color);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.22;
+    letter-spacing: 0.02em;
+  }
 // .auth-nav__links,
 // .site-nav__links li a {
 //     margin-right: 50px;
