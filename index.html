@@ -23,96 +23,103 @@
 </head>
 <body>
     <!--page-header-->
-    <header class="page-header"> 
+<header class="page-header"> 
       <div class="container container__header">
-        
-          <a href="index.html" class="logo">
+        <a href="index.html" class="logo">
             <span>Web</span>
              <span class="logo__text logo__text--black">Studio</span></a>
-<nav class="site-nav">
-             <!-- mobile-menu -->
-             <button
-             type="button"
-             class="menu-button is-open"
-             aria-expanded="true"
-             aria-controls="menu-container"
-             data-menu-button
-           >
-             <svg
-               class="menu__control"
-               width="40"
-               height="40"
-               aria-label="Переключатель мобильного меню"
-             >
-               <use class="icon-cross" href="./images/icons.svg#icon-menu_40px-1"></use>
-               <use class="icon-menu" href="./images/icons.svg#icon-menu-close_40px-1"></use>
-             </svg>
-           </button>
-   
-          <!-- Navigation to pages -->
-          <ul class="site-nav__links">                
-        <li><a href="index.html" class="site-nav__item site-nav__item--active">Студия</a></li>
-        <li><a href="./portfolio.html" class="site-nav__item">Портфолио</a></li>
-        <li><a href="#" class="site-nav__item">Контакты</a></li>
-          </ul>
-        
-      
+          <nav class="site-nav">
+                      <!-- mobile-menu -->
+                      <button
+                      type="button"
+                      class="menu-button is-open"
+                      aria-expanded="true"
+                      aria-controls="menu-container"
+                      data-menu-button
+                    >
+                      <svg
+                        class="menu__control"
+                        width="40"
+                        height="40"
+                        aria-label="Переключатель мобильного меню"
+                      >
+                        <use class="icon-cross" href="./images/icons.svg#icon-menu_40px-1"></use>
+                        <use class="icon-menu" href="./images/icons.svg#icon-menu-close_40px-1"></use>
+                      </svg>
+                    </button>
+                    <div class="menu-container" id="menu-container" data-menu>
+                      <div class="navigation">
+                        <ul class="site-nav">
+                          <li class="site-nav__item"><a href="index.html" class="site-nav__link site-nav__link--current">Студия</a></li>
+                          <li class="site-nav__item"><a href="portfolio.html" class="site-nav__link">Портфолио</a></li>
+                          <li class="site-nav__item"><a href="contacts.html" class="site-nav__link">Контакты</a>
+                        </ul>
+                      </div>
+                    <!-- Navigation to pages -->
+                    <ul class="site-nav__links">                
+                  <li><a href="index.html" class="site-nav__item site-nav__item--active">Студия</a></li>
+                  <li><a href="./portfolio.html" class="site-nav__item">Портфолио</a></li>
+                  <li><a href="#" class="site-nav__item">Контакты</a></li>
+                    </ul>
+                  
                 
-                  <!-- auth-nav header--> 
-                  <div class="contacts"> 
-                  <ul class="auth-nav">    
-                  <li> <a  href="mailto:info@devstudio.com" class="auth-nav__links">
-                    <svg class="auth-nav__img auth-nav__img--wider">
-                      <use href="./images/icons.svg#icon-envelope"></use>
-                      </svg> info@devstudio.com</a>
-                  </li>
-                  <li> 
-                     <a  href="tel:+380961111111" class="auth-nav__links">
-                       <svg class="auth-nav__img auth-nav__img--higher">
-                      <use href="./images/icons.svg#icon-smartphone"></use>
-                      </svg> +38 096 111 11 11</a>
-                  </li>
+                          
+                            <!-- auth-nav header--> 
+                            <div class="contacts"> 
+                            <ul class="auth-nav">    
+                            <li> <a  href="mailto:info@devstudio.com" class="auth-nav__links">
+                              <svg class="auth-nav__img auth-nav__img--wider">
+                                <use href="./images/icons.svg#icon-envelope"></use>
+                                </svg> info@devstudio.com</a>
+                            </li>
+                            <li> 
+                              <a  href="tel:+380961111111" class="auth-nav__links">
+                                <svg class="auth-nav__img auth-nav__img--higher">
+                                <use href="./images/icons.svg#icon-smartphone"></use>
+                                </svg> +38 096 111 11 11</a>
+                            </li>
+                            </ul>
+                          </div>
+                
+                <div class="social-net">
+                  <ul class="social">
+                    <li class="social__item">
+                      <a  class="social__link" href="#">
+                        <svg class="social__icon" width="20" height="20">
+                          <use href="./images/icons.svg#icon-instagram">
+                          </use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="social__item">
+                      <a  class="social__link" href="#">
+                        <svg class="social__icon" width="20" height="20">
+                          <use href="./images/icons.svg#icon-twitter">
+                          </use>
+                        </svg>
+                      </a >
+                    </li>
+                    <li class="social__item">
+                      <a  class="social__link" href="#" >
+                        <svg class="social__icon"  width="20" height="20">
+                          <use href="./images/icons.svg#icon-facebook">
+                          </use>
+                        </svg>
+                      </a >
+                    </li>
+                    <li class="social__item">
+                      <a  class="social__link" href="#" >
+                        <svg class="social__icon" width="20" height="20">
+                          <use href="./images/icons.svg#icon-linkedin">
+                          </use>
+                        </svg>
+                      </a>
+                    </li>
                   </ul>
                 </div>
-      </div>
-      <div class="social-net">
-        <ul class="social">
-          <li class="social__item">
-            <a  class="social__link" href="#">
-              <svg class="social__icon" width="20" height="20">
-                <use href="./images/icons.svg#icon-instagram">
-                </use>
-              </svg>
-            </a>
-          </li>
-          <li class="social__item">
-            <a  class="social__link" href="#">
-              <svg class="social__icon" width="20" height="20">
-                <use href="./images/icons.svg#icon-twitter">
-                </use>
-              </svg>
-            </a >
-          </li>
-          <li class="social__item">
-            <a  class="social__link" href="#" >
-              <svg class="social__icon"  width="20" height="20">
-                <use href="./images/icons.svg#icon-facebook">
-                </use>
-              </svg>
-            </a >
-          </li>
-          <li class="social__item">
-            <a  class="social__link" href="#" >
-              <svg class="social__icon" width="20" height="20">
-                <use href="./images/icons.svg#icon-linkedin">
-                </use>
-              </svg>
-            </a>
-          </li>
-        </ul>
-      </div>
-  </nav>
-    </header>
+          </nav>
+  </div>
+</header>
 
     <!--Main-->
     <main>
