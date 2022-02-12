@@ -1,3 +1,41 @@
+.page-header {
+    border-bottom: 1px solid #ececec;
+    background: #ffffff;
+    background-attachment: scroll;
+    position: relative;
+  }
+  .page-header .logo {
+    margin-right: 94px;
+    padding: 23px 0;
+    align-items: center;
+  }
+  .container__header {
+    @extend %container;
+  
+    position: relative;
+    height: 60px;
+    padding: 0 15px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    @media screen and (max-width: 767px) {
+      width: 480px;
+    }
+  
+    @media screen and (min-width: 768px) {
+      position: static;
+      height: 80px;
+  
+      justify-content: flex-start;
+    }
+  }
+
+  
+
+
+
 // .page-header .container {
 //     display: flex;
 //     justify-content: space-between;

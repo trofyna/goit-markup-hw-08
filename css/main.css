@@ -98,25 +98,69 @@ img {
   list-style: none;
 }
 
-.container--flex, .section--down {
+.container--flex, .section--down, .container__header {
   margin: 0 auto;
   padding: 60px 15px;
 }
 @media screen and (min-width: 480px) {
-  .container--flex, .section--down {
+  .container--flex, .section--down, .container__header {
     width: 480px;
   }
 }
 @media screen and (min-width: 768px) {
-  .container--flex, .section--down {
+  .container--flex, .section--down, .container__header {
     width: 768px;
   }
 }
 @media screen and (min-width: 1200px) {
-  .container--flex, .section--down {
+  .container--flex, .section--down, .container__header {
     width: 1200px;
     padding-top: 94px;
     padding-bottom: 94px;
+  }
+}
+
+.page-header {
+  border-bottom: 1px solid #ececec;
+  background: #ffffff;
+  background-attachment: scroll;
+  position: relative;
+}
+
+.page-header .logo {
+  margin-right: 94px;
+  padding: 23px 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container__header {
+  position: relative;
+  height: 60px;
+  padding: 0 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+@media screen and (max-width: 767px) {
+  .container__header {
+    width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container__header {
+    position: static;
+    height: 80px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
   }
 }
 
