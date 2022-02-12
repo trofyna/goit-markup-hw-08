@@ -55,6 +55,11 @@
     transition-property: border-color, fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    @include tab {
+        margin-top: 20px;
+        margin-left: 124px;
+    }
 }
 .btn-signup:hover,
 .btn-signup:focus {
