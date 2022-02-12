@@ -1,14 +1,14 @@
 
-// .site-nav,
-// .site-nav__links,
-// .auth-nav
-// {
-//     display: flex;
-//     justify-content: space-between;
-//     transition-property: color, fill;
-//     transition-duration: 250ms;
-//     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-// }
+.site-nav,
+.site-nav__links,
+.auth-nav
+{
+    display: flex;
+    justify-content: space-between;
+    transition-property: color, fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 // .auth-nav__links,
 // .site-nav__links li a {
