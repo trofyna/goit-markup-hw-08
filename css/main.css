@@ -382,7 +382,7 @@ img {
   fill: var(--act-color);
 }
 
-.nav {
+.canva-site-nav {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -390,7 +390,7 @@ img {
   color: #212121;
 }
 @media screen and (min-width: 768px) {
-  .nav {
+  .canva-site-nav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
