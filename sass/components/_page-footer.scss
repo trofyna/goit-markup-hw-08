@@ -5,6 +5,7 @@
 
     @media screen and (max-width: 767px) {
         min-width: 480px;
+        margin-top: 60px;
       }
       @include tab {
         min-width: 768px;
@@ -13,6 +14,7 @@
       }
       @media desk {
         min-width: 1200px;
+        margin-top: 94px;
       }
     
     // max-width: 1600px;
