@@ -1580,7 +1580,7 @@ img {
   .sing-up-input:hover,
 .sing-up-input:focus {
     margin-top: 20px;
-    margin-left: 124px;
+    width: 100%;
   }
 }
 
