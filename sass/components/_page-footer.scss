@@ -9,6 +9,7 @@
       }
       @include tab {
         min-width: 768px;
+        margin-top: 60px;
     
         @include FlexCenter();
       }

@@ -467,6 +467,10 @@ img {
   background-color: var(--act-color);
 }
 
+.social-net--mob {
+  display: none;
+}
+
 .logo {
   display: inline-block;
   color: var(--act-color);
@@ -1354,6 +1358,7 @@ img {
 @media screen and (min-width: 768px) {
   .page-footer {
     min-width: 768px;
+    margin-top: 60px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1572,7 +1577,14 @@ img {
 }
 @media screen and (max-width: 767px) {
   .btn-signup {
-    text-align: center;
+    margin-top: 20px;
+    margin-left: 140px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .btn-signup {
+    margin-top: 20px;
+    margin-left: 291px;
   }
 }
 
@@ -1592,7 +1604,6 @@ img {
   .sing-up-input:hover,
 .sing-up-input:focus {
     margin-top: 20px;
-    margin-botttom: 20px;
     width: 100%;
   }
 }
