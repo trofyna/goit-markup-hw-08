@@ -13,7 +13,6 @@ body{
 .container {
     padding-left: 15px;
     padding-right: 15px;
-    width: 1200px;
     outline: 1px solid red;
     margin: 0 auto;
     @media screen and (min-width: $mobile) {
@@ -39,4 +38,6 @@ body{
 
 img {
     display: block;
+    width: 100%;
+    height: auto;
 }

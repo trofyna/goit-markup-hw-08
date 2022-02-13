@@ -13,7 +13,7 @@
     @include tab {
     width: 768px;
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.5), rgba(47, 48, 58, 0.3)),
-          url('/images/hero-tab-1x.jpg');
+          url("/images/hero-tab-1x.jpg");
     }
 
     @include desk {
