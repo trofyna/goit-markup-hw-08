@@ -8,12 +8,14 @@
     background-position: center;
     outline: 1px solid #2196F3;
     background-image: linear-gradient(to right, rgba(47,48,58,0.4), rgba(52, 52, 53, 0.4)), 
-    url("/images/hero-mob-1x.jpg");
+    url("/images/hero-bg-img/480/hero-bg-img-480@x1.jpg"),
+    url("/images/hero-bg-img/480/hero-bg-img-480@x2.jpg");
 
     @include tab {
     width: 768px;
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.5), rgba(47, 48, 58, 0.3)),
-          url("/images/hero-tab-1x.jpg");
+          url("/images/hero-bg-img/768/hero-bg-img-768@x1.jpg"),
+          url("/images/hero-bg-img/768/hero-bg-img-768@x2.jpg");
     }
 
     @include desk {
@@ -24,7 +26,8 @@
     height: 600px;
     outline: 1px solid #2196F3;
     background-image: linear-gradient(to right, rgba(47,48,58,0.4), rgba(52, 52, 53, 0.4)), 
-    url("../images/imgbgfon.jpg");
+    url("/images/hero-bg-img/1200/hero-bg-img-1200@x1.jpg"),
+    url("/images/hero-bg-img/1200/hero-bg-img-1200@x2.jpg");
     background-size: cover;
     }
 }
