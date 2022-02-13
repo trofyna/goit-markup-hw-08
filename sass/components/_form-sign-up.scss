@@ -9,6 +9,10 @@
     text-transform: uppercase;
     color: var(--prim-white-background);
     margin-bottom: 15px;
+
+    @media screen and (max-width: 767px) {
+    text-align: center;
+}
 }
 .sing-up-input {
     width: 450px;
@@ -59,8 +63,10 @@
     @media screen and (max-width: 767px) {
         
         margin-top: 20px;
-        // margin-left: 124px;
+        margin-botttom: 60px;
+               // margin-left: 124px;
         width: 100%;
+
     }
 }
 .btn-signup:hover,

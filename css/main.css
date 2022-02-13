@@ -1524,6 +1524,11 @@ img {
   color: var(--prim-white-background);
   margin-bottom: 15px;
 }
+@media screen and (max-width: 767px) {
+  .sign-up-sending {
+    text-align: center;
+  }
+}
 
 .sing-up-input {
   width: 450px;
@@ -1580,6 +1585,7 @@ img {
   .sing-up-input:hover,
 .sing-up-input:focus {
     margin-top: 20px;
+    margin-botttom: 60px;
     width: 100%;
   }
 }
