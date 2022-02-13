@@ -252,7 +252,34 @@
   }
 }
 .social-net--mob {
-  display: none;
+    @media screen and (min-width:768px){
+      display: none; 
+    }
+
+}
+
+.mobile-socials__link {
+  display: inline-block;
+  color: #2196F3;
+  font-size: 26px;
+  padding: 5px;
+  @media screen and (min-width: 768px) {
+    // font-size: 30px;
+    // padding: 15px 45px;
+    display: none;
+  }
+  @media screen and (min-width: 1200px) {
+    // font-size: 36px;
+    display: none;
+  }
+}
+.social__item--mob {
+  @media screen and (max-width: 768px) {
+    margin-top: 20px;
+    &:not(:last-child) {
+      border-right: 1px solid #000;
+    }
+  }
 }
 
 // .social__link--mob {
