@@ -1564,7 +1564,7 @@ img {
     text-align: center;
   }
 }
-@media screen and (max-width: 767px) and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .sign-up-sending {
     margin-left: 282px;
   }
@@ -1590,6 +1590,17 @@ img {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+}
+@media screen and (max-width: 767px) {
+  .sing-up-input {
+    margin-top: 20px;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .sing-up-input {
+    margin-left: 166px;
+  }
 }
 
 .btn-signup {
@@ -1632,19 +1643,6 @@ img {
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-@media screen and (max-width: 767px) {
-  .sing-up-input:hover,
-.sing-up-input:focus {
-    margin-top: 20px;
-    width: 100%;
-  }
-}
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  .sing-up-input:hover,
-.sing-up-input:focus {
-    margin-left: 166px;
-  }
 }
 
 .btn-signup:hover,

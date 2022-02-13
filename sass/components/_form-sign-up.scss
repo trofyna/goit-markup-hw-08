@@ -12,11 +12,11 @@
 
     @media screen and (max-width: 767px) {
     text-align: center;
-    
+}
+
     @media screen and (min-width: 768px) and (max-width: 1199px) {
-        margin-left: 282px;
-}
-}
+        margin-left: 282px;}
+
 }
 .sing-up-input {
     width: 450px;
@@ -36,6 +36,16 @@
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
+     
+    @media screen and (max-width: 767px) {
+        
+        margin-top: 20px;
+        width: 100%;
+
+    }
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+        margin-left: 166px;
+    }
 }
 
 .btn-signup {
@@ -71,16 +81,7 @@
     transition-property: border-color, fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    
-    @media screen and (max-width: 767px) {
-        
-        margin-top: 20px;
-        width: 100%;
-
-    }
-    @media screen and (min-width: 768px) and (max-width: 1199px) {
-        margin-left: 166px;
-}
+   
 }
 .btn-signup:hover,
 .btn-signup:focus {
