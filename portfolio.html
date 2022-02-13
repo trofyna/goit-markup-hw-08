@@ -410,31 +410,26 @@
             <li class="portfolio-list__item nine">
               <a href="#" class="portfolio-list__link">
             <div class="portfolio-list__info">
-                <picture>
+              <picture>
+                <source srcset="
+                .\images\portfolio-imgs\1200\portfolio-img-9-1200@x1.jpg 1x,
+                .\images\portfolio-imgs\1200\portfolio-img-9-1200@x2.jpg 2x "
+                  type="image/jpg"
+                  media="(min-width: 1200px)"/>
                   <source srcset="
-                  ./images/portfolio/project9-mob-1x.jpg 1x,
-                  ./images/portfolio/project9-mob-2x.jpg 2x "
-                      type="image/jpg"
-                      media="(max-width: 767px)" />
-                        <source srcset="
-                        ./images/portfolio/project9-tab-1x.jpg 1x,
-                        ./images/portfolio/project9-tab-2x.jpg 2x "
-                      type="image/jpg"
-                      media="(max-width: 1199px)" />
-                      <source srcset="
-                      ./images/portfolio/project9.jpg 1x,
-                      ./images/portfolio/project9-2x.jpg 2x "
-                      type="image/jpg"
-                      media="(min-width: 1200px)" />
-                  <img loading="lazy" srcset="
-                      ./images/portfolio/project9.jpg 1x,
-                      ./images/portfolio/project9-2x.jpg 2x "
-                      src="./images/img9-main-por.jpg"
-                      alt="Growing Business"/>
-                </picture>
-                <!-- <img src="./images/img9-main-por.jpg" alt="img" width="370" height="294"> -->
-                <div class="portfolio-list__kryak">
-                  <p class="portfolio-list__kryakt--text"> Технокряк это современная площадка распространения коронавируса. 
+                  .\images\portfolio-imgs\768\portfolio-img-9-768@x1.jpg 1x,
+                  .\images\portfolio-imgs\768\portfolio-img-9-768@x2.jpg 2x "
+                   type="image/jpg"
+                   media="(min-width: 768px) and (max-width: 1199px)"/>
+              <source srcset="
+                  .\images\portfolio-imgs\480\portfolio-img-9-480@x1.jpg 1x,
+                  .\images\portfolio-imgs\480\portfolio-img-9-480@x2.jpg 2x"
+                  type="image/jpg"
+                  media="(max-width: 767px)"/>
+                  <img src="#"
+                  alt="Growing Business"/>
+              </picture>  
+               <p class="portfolio-list__kryakt--text"> Технокряк это современная площадка распространения коронавируса. 
                     Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.
                   </p>
               </div>
