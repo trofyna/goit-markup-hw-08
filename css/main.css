@@ -625,14 +625,14 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   outline: 1px solid #2196F3;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(52, 52, 53, 0.4))), url("/images/hero-bg-img/480/hero-bg-img-480@x1.jpg"), url("/images/hero-bg-img/480/hero-bg-img-480@x2.jpg");
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(52, 52, 53, 0.4)), url("/images/hero-bg-img/480/hero-bg-img-480@x1.jpg"), url("/images/hero-bg-img/480/hero-bg-img-480@x2.jpg");
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(52, 52, 53, 0.4))), url("./images/hero-bg-img/480/hero-bg-img-480@x1.jpg"), url("./images/hero-bg-img/480/hero-bg-img-480@x2.jpg");
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(52, 52, 53, 0.4)), url("./images/hero-bg-img/480/hero-bg-img-480@x1.jpg"), url("./images/hero-bg-img/480/hero-bg-img-480@x2.jpg");
 }
 @media screen and (min-width: 768px) {
   .hero {
     width: 768px;
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.5)), to(rgba(47, 48, 58, 0.3))), url("/images/hero-bg-img/768/hero-bg-img-768@x1.jpg"), url("/images/hero-bg-img/768/hero-bg-img-768@x2.jpg");
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.5), rgba(47, 48, 58, 0.3)), url("/images/hero-bg-img/768/hero-bg-img-768@x1.jpg"), url("/images/hero-bg-img/768/hero-bg-img-768@x2.jpg");
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.5)), to(rgba(47, 48, 58, 0.3))), url("./images/hero-bg-img/768/hero-bg-img-768@x1.jpg"), url("./images/hero-bg-img/768/hero-bg-img-768@x2.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.5), rgba(47, 48, 58, 0.3)), url("./images/hero-bg-img/768/hero-bg-img-768@x1.jpg"), url("./images/hero-bg-img/768/hero-bg-img-768@x2.jpg");
   }
 }
 @media screen and (min-width: 1200px) {
@@ -643,8 +643,8 @@ img {
     max-width: 100%;
     height: 600px;
     outline: 1px solid #2196F3;
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(52, 52, 53, 0.4))), url("/images/hero-bg-img/1200/hero-bg-img-1200@x1.jpg"), url("/images/hero-bg-img/1200/hero-bg-img-1200@x2.jpg");
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(52, 52, 53, 0.4)), url("/images/hero-bg-img/1200/hero-bg-img-1200@x1.jpg"), url("/images/hero-bg-img/1200/hero-bg-img-1200@x2.jpg");
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(52, 52, 53, 0.4))), url("./images/hero-bg-img/1200/hero-bg-img-1200@x1.jpg"), url("./images/hero-bg-img/1200/hero-bg-img-1200@x2.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(52, 52, 53, 0.4)), url("./images/hero-bg-img/1200/hero-bg-img-1200@x1.jpg"), url("./images/hero-bg-img/1200/hero-bg-img-1200@x2.jpg");
     background-size: cover;
   }
 }
