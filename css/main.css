@@ -434,7 +434,26 @@ img {
   }
 }
 
-.site-nav__link {
+@media screen and (max-width: 798px) {
+  .menu-container.is open .site-nav {
+    position: absolute;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+}
+
+@media screen and (max-width: 798px) {
+  .menu-container.is open .navigation {
+    position: relative;
+  }
+}
+.menu-container.is open .navigation .site-nav__item .site-nav__link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.18;
+  letter-spacing: 0.02em;
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: inline-block;
@@ -443,20 +462,20 @@ img {
   padding-bottom: 8px;
 }
 @media screen and (min-width: 768px) {
-  .site-nav__link {
+  .menu-container.is open .navigation .site-nav__item .site-nav__link {
     text-align: center;
     padding-top: 32px;
     padding-bottom: 32px;
   }
 }
-.site-nav__link:hover, .site-nav__link:focus {
+.menu-container.is open .navigation .site-nav__item .site-nav__link:hover, .menu-container.is open .navigation .site-nav__item .site-nav__link:focus {
   color: var(--act-color);
 }
-.site-nav__link--current {
+.menu-container.is open .navigation .site-nav__item .site-nav__link--current {
   position: relative;
   color: var(--act-color);
 }
-.site-nav__link--current::after {
+.menu-container.is open .navigation .site-nav__item .site-nav__link--current::after {
   content: "";
   position: absolute;
   left: 0;
@@ -466,36 +485,44 @@ img {
   border-radius: 2px;
   background-color: var(--act-color);
 }
-
 @media screen and (min-width: 768px) {
-  .social-net--mob {
+  .menu-container.is open .navigation .social-net--mob {
     display: none;
   }
 }
 
-.mobile-socials__link {
-  display: inline-block;
+.social__link--mob {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: inline;
   color: #2196F3;
-  font-size: 26px;
+  font-size: 18px;
+  line-height: 1.22;
+  letter-spacing: 0.02em;
   padding: 5px;
 }
 @media screen and (min-width: 768px) {
-  .mobile-socials__link {
+  .social__link--mob {
     display: none;
   }
 }
 @media screen and (min-width: 1200px) {
-  .mobile-socials__link {
+  .social__link--mob {
     display: none;
   }
 }
 
 @media screen and (max-width: 768px) {
   .social__item--mob {
-    margin-top: 20px;
+    margin-top: 64px;
   }
   .social__item--mob:not(:last-child) {
-    border-right: 1px solid #000;
+    border-right: 1px solid rgba(33, 33, 33, 0.2);
   }
 }
 
